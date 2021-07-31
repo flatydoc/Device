@@ -1,0 +1,29 @@
+.footer {
+  width: 100%;
+  min-height: 325px;
+
+  background-color: grey;
+  background-image: url(../img/patterns/footer_pattern.png);
+  background-repeat: repeat;
+}
+
+.footer__wrapper {
+  position: relative;
+
+  border: 2px solid red;
+
+  width: 90%;
+  min-height: 325px;
+  margin: 0 auto;
+}
+
+.footer__logo {
+  position: absolute;
+  top: -7.5%;
+
+  display: inline-block;
+}
+
+.footer__logo-picture path {
+  fill: royalblue;
+}
